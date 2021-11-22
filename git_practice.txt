@@ -21,6 +21,8 @@ git branch : 브랜치 확인
 
 git checkout "브랜치 이름" : 해당 브랜치 사용
 
-git merge "브랜치 이름" : 해당 브랜치 내용을 사용중인 브랜치에 병합
+git merge "브랜치 이름" : 해당 브랜치 내용을 사용중인 브랜치에 병합 (가지 쳐저있는 상태로 합치기)
+
+git rebase "브랜치 이름" : 해당 브랜치 내용을 사용중인 브랜치에 병합 (가지를 모두 합치기)
 
 git log --graph --all --decorate
