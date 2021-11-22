@@ -1,3 +1,5 @@
+<local>
+
 git init : git 초기화
 
 git add * : 모든 상태를 타임캡슐에 넣기
@@ -26,3 +28,18 @@ git merge "브랜치 이름" : 해당 브랜치 내용을 사용중인 브랜치
 git rebase "브랜치 이름" : 해당 브랜치 내용을 사용중인 브랜치에 병합 (가지를 모두 합치기)
 
 git log --graph --all --decorate
+
+
+<github>
+
+git remote : 추가한 원격 레파지토리를 볼 수 있음
+
+git remote add origin https://github.com/dan2el/git-practice.git : 해당 url에 origin이라는 이름으로 원격 레파지토리를 생성
+
+git branch -M main : 로컬에 main이라는 브랜치 생성
+
+git push -u origin main : local의 main을 github의 origin에 push
+
+
+
+
