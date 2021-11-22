@@ -1,0 +1,16 @@
+git init : git 초기화
+
+git add * : 모든 상태를 타임캡슐에 넣기
+git add -A : 모든 상태를 타임캡슐에 넣기
+
+git commit -m "git 연습중" : 타임캡슐에 이름 붙이고 저장하기
+
+git config --global user.name "내 이름" : 이름등록
+
+git config --global user.email "내 이메일" : 이메일 등록
+
+git status : 상태 확인
+
+git reset 000000 --hard : 000000 지점으로 복원, 복원시점 이후 모두 삭제
+
+git revert 000000 : 000000 지점으로 복원, 
