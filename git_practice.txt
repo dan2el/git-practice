@@ -14,3 +14,13 @@ git status : 상태 확인
 git reset 000000 --hard : 000000 지점으로 복원, 복원시점 이후 모두 삭제
 
 git revert 000000 : 000000 지점으로 복원, 
+
+git branch "브랜치 이름" : 브랜치 추가
+
+git branch : 브랜치 확인
+
+git checkout "브랜치 이름" : 해당 브랜치 사용
+
+git merge "브랜치 이름" : 해당 브랜치 내용을 사용중인 브랜치에 병합
+
+git log --graph --all --decorate
